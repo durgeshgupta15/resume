@@ -1,81 +1,46 @@
 const personalDetails = {
-    name: 'JAY KUMAR',
-    designation: 'Full Stack Developer',
-    aboutMe: `I'm an innovative Full Stack Web Developer with 4 years of work experience (3 years in hand) in web development.
+    name: 'DURGESH GUPTA',
+    designation: 'FRONT END DEVELOPER',
+    aboutMe: `I'm an innovative Front End Developer with 2.5+ years of work experience in web development.
             Mostly i worked on Javascript frameworks such as Angular, ReactJS, NodeJS, Ionic etc.
-            Recently I have created a version controller for pdf & BOT for automatic tally data insertion.
-            I have developed products for more than 3 startups with upto 90% work satisfaction.`,
+            Experienced to work on Scrum Process(JIRA) and Github/Gitlab for Version Control.
+            I have developed products for 2 startups with upto 90% work satisfaction.`,
     details: [
-        { icon: 'fa fa-envelope', html: `<a href="mailto:jkrana008@gmail.com" alt="jkrana008@gmail.com" target="_blank" rel="noopener noreferrer">jkrana008@gmail.com</a>` },
-        { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/jai-rana/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jai-rana/</a>` },
-        { icon: 'fa fa-mobile', html: `<a href="tel:+918385803337" alt="+918385803337" target="_blank" rel="noopener noreferrer">+918385803337</a>, <a href="tel:+916378922131" alt="+916378922131" target="_blank" rel="noopener noreferrer">+916378922131</a>` },
-        { icon: 'fa fa-calendar', html: `15 Aug 1993` },
+        { icon: 'fa fa-envelope', html: `<a href="mailto:durgeshgupta15101997@gmail.com" alt="durgeshgupta15101997@gmail.com" target="_blank" rel="noopener noreferrer">durgeshgupta15101997@gmail.com</a>` },
+        { icon: 'fa fa-linkedin', html: `<a href="https://www.linkedin.com/in/durgesh-gupta-b7aa17122/" alt="linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/durgesh-gupta-b7aa17122/</a>` },
+        { icon: 'fa fa-mobile', html: `<a href="tel:+919079231433" alt="+919079231433" target="_blank" rel="noopener noreferrer">+919079231433</a>, <a href="tel:+919983557858" alt="+919983557858" target="_blank" rel="noopener noreferrer">+919983557858</a>` },
+        { icon: 'fa fa-calendar', html: `15 Oct 1997` },
     ],
     experience: [
         {
-            designation: 'Full Stack Developer',
+            designation: 'Front End Developer',
             company: 'Axestrack Software Solutions',
-            duration: '10/2020 - Present',
+            duration: '01/2021 - Present',
             location: 'Jaipur',
             desc: `Provide the GPS based tracking solutions for consignment, personal, mobile and vehicle based tracking with Geofence, Over Speed, stoppage, Route-deviation, 
             Break-down, fuel consumption and different-2 Sensor based analysis solution.`,
         },
         {
-            designation: 'Full Stack Developer',
-            company: 'Elogist Private Ltd.',
-            duration: '02/2018 - 09/2020',
-            location: 'Jaipur',
-            desc: `Provide AI based solution for Fastag Toll, Fuel Consumption, Trip Management, Location Tracking, Challan Payments, 
-            Driver Performance Monitoring & Other Logistic Services.`,
-        },
-        {
-            designation: 'Full Stack Developer',
-            company: 'Appwallaz',
-            duration: '05/2017 - 01/2018',
-            location: 'Jaipur',
-            desc: `Its a service based company provide complete solution for web, app & software development.`,
-        },
-        {
-            designation: 'Full Stack Developer',
-            company: 'Youstart',
-            duration: '01/2017 - 05/2017',
-            location: 'Jaipur',
-            desc: `Its a service based company consulting & providing solution for web, app, software, AI, & ML development. 
-            Mostly it worked with startups`,
+            designation: 'Front End Developer',
+            company: 'Webcontentor Pvt Ltd',
+            duration: '04/2019 - 12/2020',
+            location: 'Delhi',
+            desc: `Provide Software Products, Mobile Apps, transactional and interactive Web Presences for more than 8 years. a web solution with workflows and functionality based on the type of user sign-in and the UI responsively adjusts based on the access device.`,
         }
     ],
     educations: [
         {
             name: 'B. Tech.',
             college: 'Jagannath Gupta Institute of Engineering & Technology (JNIT)',
-            duration: '2013 - 2017',
+            duration: '2014 - 2018',
             location: 'Jaipur',
-            stream: 'Computer Science',
-            desc: ''
-        },
-        {
-            name: 'O & A Level',
-            college: 'National Institute of Electronics & Information Technology (NIELIT)',
-            duration: '2010 - 2012',
-            location: 'Mathura',
             stream: 'Computer Science',
             desc: ''
         }
     ],
-    skills: ['Javascript', 'Python', 'MongoDB', 'Angular', 'ReactJS', 'NodeJS', 'Ionic'],
+    skills: ['Javascript', 'MongoDB', 'Angular', 'ReactJS', 'Ionic'],
+    technologies: ['Kendo Ui', 'Material Ui', 'React-Bootstrap', 'Github', 'Gitlab', 'Jira', 'Kanban', 'Redux', 'Context Api', 'Formik', 'Nrwl'],
     projects: [
-        {
-            name: 'Automation (Bank, Challan, RC, Driver, Tally, Fastag)',
-            tech: 'Python, Selenium, UI Path',
-            desc: `Implemented Banking, Fastag, Challan, RC, Driver & Tally automation using Python & UI Path`,
-            link: ''
-        },
-        {
-            name: 'PDF Version Controller',
-            tech: 'Javascript, Pdfjs, FabricJS',
-            desc: `A version controller for PDF using Javascript. You can view every level of changes & modify them.`,
-            link: ''
-        },
         {
             name: 'Trackurate',
             tech: 'Angular, Ionic, NodeJS, MongoDB',
@@ -97,47 +62,47 @@ const personalDetails = {
             link: 'https://play.google.com/store/apps/details?id=www.walle8.com'
         },
         {
-            name: 'The Peak Dispensary',
-            tech: 'Ionic, NodeJS, Angular, MongoDB',
-            desc: `A mobile application & website to sale marijuana medicine online in USA.`,
+            name: 'Partner Admin Dashboard',
+            tech: 'Angular',
+            desc: `A application that manages all the company partner and decides which roles needs to provide to their partner and contain all the info regarding them.`,
             link: 'https://play.google.com/store/apps/details?id=com.sanghi.motrs'
         },
         {
-            name: 'Volkswagen Jaipur',
-            tech: 'Ionic, NodeJS, Angular, MongoDB',
-            desc: `A mobile application for Volkswagen Jaipur for service booking, test drive booking, sales enquiries etc.`,
+            name: 'FVTS',
+            tech: 'Angular, Java, PostgreSql',
+            desc: `A web app that manages all the trucks of fleet managers. live tracking of vehicles and route optimization, performance reporting and fuel mangement kind of module inside it.`,
             link: "https://play.google.com/store/apps/details?id=com.sanghi.motrs",
 
         },
         {
-            name: 'Qk Feedback',
-            tech: 'JavaScript',
-            desc: `It is a javascript plugin to get the quick feedback from the clint. No need of extra installation just insert script tag and it's work.`,
+            name: 'Wallet8-Admin',
+            tech: 'Angular',
+            desc: `This application contains information regarding all the fastrack info and all the transition on toll, containing diffrenet reports inside it for fleet managers. different kind of bank transition api also inside this project.`,
             link: 'https://qkfeedback.com/'
         },
         {
-            name: 'SeeADoc',
-            tech: 'Ionic, NodeJS, MongoDB',
-            desc: `A appointment booking system for patients. Patients can book appointment on a particular time slot with live tracking.`,
+            name: 'Blog App',
+            tech: 'ReactJs, Redux, Material-UI',
+            desc: `This is a News blog application shows current news and search news according to classification wise. with google authentication login and logout.`,
             link: 'https://play.google.com/store/apps/details?id=io.ionic.starterseeadoc2018'
         },
         {
-            name: 'GetShortCut',
-            tech: 'Angular 2',
-            desc: `Shortcut is the easiest way to get a haircut on-demand, right in the comfort of your home or office.`,
+            name: 'Flipkart Clone',
+            tech: 'ReactJs, ExpressJs, NodeJs, MongoDB, Redux',
+            desc: `This project deals with developing an e-commerce website for Online Product Sale. This project also includes admin portal to mangaes all the category, product, cart and upi transition.`,
             link: 'https://www.getshortcut.co/'
         },
         {
-            name: 'MyLib',
-            tech: 'Ionic 2, Loopback, MongoDB',
-            desc: `A digital library for students, contain information in the form of audio, video & text.`,
-            link: 'https://play.google.com/store/apps/details?id=com.softbox.mylib&hl=en'
+            name: 'Covid19-Tracker',
+            tech: 'RectJs, Context-Api',
+            desc: `A tracker that provide infomation of recovery, deaths and infected with charts and according to country wise information.`,
+            link: ''
         },
         {
-            name: 'SparUp',
-            tech: 'Ionic, AngularJS, NodeJS, MongoDB',
-            desc: `A training management system used by coaches, athelets, parents & managers to view, follow & manage athelet activities.`,
-            link: 'https://play.google.com/store/apps/details?id=com.youstart.sparup'
+            name: 'Report Central',
+            tech: 'Angular',
+            desc: `First In Line, is the solution, With the power to immediately and dramatically improve call management and customer satisfaction while reducing staffing costs and infrastructure expenses.`,
+            link: ''
         }
     ],
 }

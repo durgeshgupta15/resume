@@ -28,7 +28,7 @@ const PrintButton = ({ id, label }) => (<div className="tc mb4 mt2">
                     let pdf = new jsPDF('p', 'mm', 'a4', true); // A4 size page of PDF
                     var position = 0;
                     pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight, '', 'FAST')
-                    pdf.save('theJaiRana-fullStack-Developer.pdf'); // Generated PDF
+                    pdf.save('durgesh-front-end-developer.pdf'); // Generated PDF
                 })
 
         }}

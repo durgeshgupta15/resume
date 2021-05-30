@@ -39,6 +39,14 @@ function resume1() {
                                 })}
                             </div>
                         </div>
+                        <div className="f1-section">
+                            <div className="f1-heading">Technologies</div>
+                            <div className="f1-skills f1-sub-section">
+                                {DATA.technologies.map((technologies, index) => {
+                                    return (<span key={index}>{technologies}</span>);
+                                })}
+                            </div>
+                        </div>
 
                         <div className="f1-section f1-section-border">
                             <div className="f1-heading">Work Experience</div>
